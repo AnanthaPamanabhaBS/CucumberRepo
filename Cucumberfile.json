@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T08:37:11.713Z",
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1394900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "Step.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "some other precondition",
+            "match": {
+              "location": "Step.some_other_precondition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I complete action",
+            "match": {
+              "location": "Step.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "some other action",
+            "match": {
+              "location": "Step.some_other_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "yet another action",
+            "match": {
+              "location": "Step.yet_another_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "Step.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check more outcomes",
+            "match": {
+              "location": "Step.check_more_outcomes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:P1/Anything.feature",
+    "tags": []
+  }
+]
